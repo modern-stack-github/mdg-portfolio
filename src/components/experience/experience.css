@@ -1,0 +1,72 @@
+.card img {
+  object-fit: contain;
+}
+
+.custom-list-item-acn {
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: black;
+}
+
+.list-group-item.custom-list-item-acn {
+  border: black solid;
+  border-width: 0 0 1px;
+}
+
+.custom-list-item-infor {
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: floralwhite;
+}
+
+.list-group-item.custom-list-item-infor {
+  border: floralwhite solid;
+  border-width: 0 0 1px;
+}
+
+.nav-link-infor {
+  color: #fff;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.acn-tab-styling.nav-tabs {
+  border-bottom: 2px rgb(177, 33, 153) solid;
+}
+
+.acn-tab-styling .nav-item button.nav-link.active {
+  background-color: rgb(177, 33, 153);
+  color: #fff;
+}
+
+.acn-tab-styling .nav-item button.nav-link {
+  color: rgb(33, 37, 41);
+  font-weight: 500;
+  border: inherit;
+}
+
+.infor-tab-styling.nav-tabs {
+  border-bottom: 2px rgb(145, 29, 44) solid;
+}
+
+.infor-tab-styling .nav-item button.nav-link.active {
+  background-color: rgb(145, 29, 44);
+  color: #fff;
+}
+
+.infor-tab-styling .nav-item button.nav-link {
+  color: floralwhite;
+  font-weight: 500;
+  border: inherit;
+}

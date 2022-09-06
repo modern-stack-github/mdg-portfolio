@@ -1,0 +1,34 @@
+.slide-right-overview {
+  animation: 3s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.list-group-item.custom-list-about-me::before {
+  content: "●";
+  margin-right: 0.75rem;
+}
+
+.list-group-item.custom-list-about-me {
+  background-color: inherit;
+  border: none;
+  color: floralwhite;
+  font-size: 18px;
+}
+
+.skills-row-about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
