@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f48d3a72.css",
+    "main.js": "/static/js/main.f8306c9f.js",
+    "static/media/portfolio-picture.jpg": "/static/media/portfolio-picture.f580f840767741ba8ea5.jpg",
+    "static/media/Marc_De_Guzman_CV.pdf": "/static/media/Marc_De_Guzman_CV.37d5c24b10ecc2456e36.pdf",
+    "static/media/mdg-logo.png": "/static/media/mdg-logo.e1c94b8744e0a9f33e0e.png",
+    "static/media/home-background-img.jpg": "/static/media/home-background-img.f4bf2a1df688f392fedd.jpg",
+    "static/media/not-found-img.png": "/static/media/not-found-img.6f5cb27d534a98cb14ab.png",
+    "static/media/infor-logo.png": "/static/media/infor-logo.c1bf7a3769668d8820f8.png",
+    "index.html": "/index.html",
+    "main.f48d3a72.css.map": "/static/css/main.f48d3a72.css.map",
+    "main.f8306c9f.js.map": "/static/js/main.f8306c9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f48d3a72.css",
+    "static/js/main.f8306c9f.js"
+  ]
+}
