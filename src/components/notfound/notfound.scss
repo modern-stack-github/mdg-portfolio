@@ -1,0 +1,10 @@
+.text-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-weight: 550;
+
+  a {
+    color: unset;
+  }
+}
