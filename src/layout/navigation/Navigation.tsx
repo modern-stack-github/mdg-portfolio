@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 function Navigation() {
   const location = useLocation();
   const [currentPath, setCurrentPath] = useState<string>('');
-  const cvFile = require('../../downloads/Marc_De_Guzman_CV.pdf');
+  // const cvFile = require('/Marc_De_Guzman_CV.pdf');
   const myLogo = require('../../images/mdg-logo.png');
 
   useEffect(() => {
@@ -42,10 +42,10 @@ function Navigation() {
           </Nav>
           <Nav >
             <Nav.Link href="/" active={currentPath === '/'}> <FontAwesomeIcon size='1x' icon={faHouseChimney} /> HOME </Nav.Link>
-            <Nav.Link href="/about" active={currentPath === '/about'}> <FontAwesomeIcon size='1x' icon={faUser} /> ABOUT </Nav.Link>
-            <Nav.Link href="/experience" active={currentPath === '/experience'}> <FontAwesomeIcon size='1x' icon={faBriefcase} /> EXPERIENCE </Nav.Link>
-            <Nav.Link href="/contact"> <FontAwesomeIcon size='1x' icon={faAddressCard} /> CONTACT </Nav.Link>
-            <Nav.Link href={cvFile} target="_blank"> <FontAwesomeIcon size='1x' icon={faFileLines} /> MY RESUME </Nav.Link>
+            <Nav.Link href="/about" active={currentPath.includes("about")}> <FontAwesomeIcon size='1x' icon={faUser} /> ABOUT </Nav.Link>
+            <Nav.Link href="/experience" active={currentPath.includes("experience")}> <FontAwesomeIcon size='1x' icon={faBriefcase} /> EXPERIENCE </Nav.Link>
+            <Nav.Link href="/contact" active={currentPath.includes("contact")}> <FontAwesomeIcon size='1x' icon={faAddressCard} /> CONTACT </Nav.Link>
+            <Nav.Link href="/Marc_De_Guzman_CV.pdf" target="_blank"> <FontAwesomeIcon size='1x' icon={faFileLines} /> MY RESUME </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
