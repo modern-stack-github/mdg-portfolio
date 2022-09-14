@@ -14,7 +14,6 @@ function Home() {
         alignItems: 'center',
         color: '#18160a',
         marginBottom: '10px',
-        fontFamily: 'cursive',
         letterSpacing: '0.5px'
       }}>
         <Col sm={7}>
